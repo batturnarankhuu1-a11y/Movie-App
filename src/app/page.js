@@ -7,9 +7,9 @@ import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuGroup,
+  DropdownMenuItem,
   DropdownMenuLabel,
   DropdownMenuRadioGroup,
-  DropdownMenuRadioItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
@@ -37,11 +37,10 @@ export default function Home() {
                 <DropdownMenuRadioGroup
                   value={position}
                   onValueChange={setPosition}
-                >
-                  <DropdownMenuRadioItem>
-                    <div></div>
-                  </DropdownMenuRadioItem>
-                </DropdownMenuRadioGroup>
+                ></DropdownMenuRadioGroup>
+                <DropdownMenuItem>
+                  <div></div>
+                </DropdownMenuItem>
               </DropdownMenuGroup>
             </DropdownMenuContent>
           </DropdownMenu>
