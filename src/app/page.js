@@ -1,4 +1,4 @@
-"use client";
+"suse client";
 
 import Image from "next/image";
 import * as React from "react";
@@ -13,7 +13,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 
-export default function Home() {
+export default function Header() {
   const [position, setPosition] = React.useState("bottom");
   return (
     <div className="flex justify-between items-center">
